@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .dark-theme {
+            background-color: #1a1a1a;
+            color: #ffffff;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="website-container">
+        
+        <section class="section-1" id="about">
+            <header class="header">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i> theme
+                </button>
+
+                <ul class="nav-links">
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                </ul>
+
+                <button class="contact-btn" id="contactBtn">Contact</button>
+            </header>
+
+            <div class="about-content-container">
+                <h2 class="about-title">ABOUT ME</h2>
+
+                <p class="intro-text">Hi, <span class="name-highlight">I'm Danya</span>, a beginner web developer.</p>
+
+                <p class="description-text">Since 2025, I have been passionate about web technologies, studying at an IT college and studying all modern trends and directions of development of the web industry.</p>
+
+                <div class="check-out-container">
+                    <p class="check-out">Check out my</p>
+                    <div class="social-logos">
+                        <a href="#" class="social-logo">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-logo">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" class="social-logo">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                <img src="/asets/images/photo_2025-11-09_20-30-08 (1).jpg" alt="John" class="foreground-image">
+            </div>
+        </section>
+        <section class="section-2" id="skills">
+            <h3 class="skills-title">skills</h3>
+
+            <h2 class="skills-heading">My Skills</h2>
+
+            <p class="skills-description">I am constantly learning and developing, expanding my professional and social skills.</p>
+
+            <div class="skills-grid">
+                <div class="skill-row">
+                    <div class="skill-item skill-html">HTML 5</div>
+                    <div class="skill-item skill-css">CSS</div>
+                    <div class="skill-item skill-js">JavaScript</div>
+                    <div class="skill-item skill-vscode">VS Code</div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-item skill-git">Git</div>
+                    <div class="skill-item skill-devtools">DevTools</div>
+                    <div class="skill-item skill-figma">Figma</div>
+                    <div class="skill-item skill-postman">Postman</div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-item skill-typescript">TypeScript</div>
+                    <div class="skill-item skill-react">React</div>
+                    <div class="skill-item skill-redux">Redux Toolkit</div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-item skill-sql">SQL</div>
+                    <div class="skill-item skill-webpack">Webpack</div>
+                    <div class="skill-item skill-vite">Vite</div>
+                    <div class="skill-item skill-nodejs">Node.js</div>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-item skill-python">Python</div>
+                    <div class="skill-item skill-restapi">REST API</div>
+                </div>
+            </div>
+
+            <div class="dev-skills-container">
+                <h3 class="dev-skills-title">Developer Skills</h3>
+
+                <div class="skill-progress-container">
+                    <div class="skill-progress-html">HTML 5</div>
+                    <div class="progress-bar-html">
+                        <div class="progress-html"></div>
+                    </div>
+                </div>
+
+                <div class="skill-progress-container">
+                    <div class="skill-progress-css">CSS3</div>
+                    <div class="progress-bar-css">
+                        <div class="progress-css"></div>
+                    </div>
+                </div>
+
+                <div class="skill-progress-container">
+                    <div class="skill-progress-js">JavaScript</div>
+                    <div class="progress-bar-js">
+                        <div class="progress-js"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-3" id="projects">
+            <h3 class="projects-title">projects</h3>
+            <h2 class="projects-heading">My Portfolio</h2>
+            <p class="projects-description">My best works during my studies and participation in open web community projects.</p>
+
+            <div class="projects-grid">
+                <div class="project-card project-1">
+                    <img src="/asets/images/1.jpg" alt="Project 1" class="project-image">
+                    <div class="project-content">
+                        <div class="project-category">category</div>
+                        <h4 class="project-name">Cool two-line headline</h4>
+                    </div>
+                    <button class="read-more-btn">Read more</button>
+                </div>
+                <div class="project-card project-2">
+                    <img src="/asets/images/2.jpg" alt="Project 2" class="project-image">
+                    <div class="project-content">
+                        <div class="project-category">category</div>
+                        <h4 class="project-name">Cool three-line headline</h4>
+                    </div>
+                    <button class="read-more-btn">Read more</button>
+                </div>
+                
+                <div class="project-card project-3">
+                    <img src="/asets/images/3.jpg" alt="Project 3" class="project-image">
+                    <div class="project-content">
+                        <div class="project-category">category</div>
+                        <h4 class="project-name">Cool three-line headline</h4>
+                    </div>
+                    <button class="read-more-btn">Read more</button>
+                </div>
+                
+                <div class="project-card project-4">
+                    <img src="/asets/images/4.jpg" alt="Project 4" class="project-image">
+                    <div class="project-content">
+                        <div class="project-category">category</div>
+                        <h4 class="project-name">Cool three-line headline</h4>
+                    </div>
+                    <button class="read-more-btn">Read more</button>
+                </div>
+                
+                <div class="project-card project-5">
+                    <img src="/asets/images/5.jpg" alt="Project 5" class="project-image">
+                    <div class="project-content">
+                        <div class="project-category">category</div>
+                        <h4 class="project-name">Cool three-line headline</h4>
+                    </div>
+                    <button class="read-more-btn">Read more</button>
+                </div>
+
+                <div class="project-card project-6">
+                    <img src="/asets/images/6.jpg" alt="Project 6" class="project-image">
+                    <div class="project-content">
+                        <div class="project-category">category</div>
+                        <h4 class="project-name">Cool two-line headline</h4>
+                    </div>
+                    <button class="read-more-btn">Read more</button>
+                </div>
+            </div>
+        </section>
+        <section class="section-4" id="experience">
+            <h3 class="experience-title">experience</h3>
+            
+            <h2 class="experience-heading">Experience</h2>
+
+            <p class="experience-description">My professional journey in learning and self-development as a beginner web engineer</p>
+
+            <div class="experience-cards">
+                <div class="experience-card card-1">
+                    <h4 class="card-title">SOME EXPERIENCE 1</h4>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in suscipit mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    <div class="card-year">2023</div>
+                </div>
+
+                <div class="experience-card card-2">
+                    <h4 class="card-title">SOME EXPERIENCE 2</h4>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in suscipit mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    <div class="card-year">2024</div>
+                </div>
+
+                <div class="experience-card card-3">
+                    <h4 class="card-title">SOME EXPERIENCE 3</h4>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in suscipit mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    <div class="card-year">2025</div>
+                </div>
+
+                <div class="experience-card card-4">
+                    <h4 class="card-title">SOME EXPERIENCE 4</h4>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in suscipit mi. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                    <div class="card-year">2026</div>
+                </div>
+            </div>
+        </section>
+
+<section class="section-5" id="contacts">
+    <h3 class="contact-title">contacts</h3>
+
+    <h2 class="contact-heading">Contact With Me</h2>
+
+    <p class="contact-description">If you are interested in cooperation, I will be glad to receive your proposals and work on joint projects.</p>
+
+    <div class="contact-info-box">
+        <div class="contact-item">
+            <h4 class="contact-item-title">Location</h4>
+            <p class="contact-item-text"> Balashikha, Russia</p>
+        </div>
+        <div class="contact-item">
+            <h4 class="contact-item-title">Email</h4>
+            <p class="contact-item-text">pevneffdaniil@yandex.ru</p>
+        </div>
+        <div class="contact-item">
+            <h4 class="contact-item-title">Phone</h4>
+            <p class="contact-item-text">+7 909 923-43-41</p>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <div class="form-field name-field">
+            <label class="field-label">You Name *</label>
+            <input type="text" placeholder="Please introduce yourself" class="form-input">
+            <div class="input-line"></div>
+            <p class="field-note">Minimum number of characters - 3</p>
+        </div>
+
+        <div class="form-field email-field">
+            <label class="field-label">Your Email *</label>
+            <input type="email" placeholder="Please enter your email address" class="form-input">
+            <div class="input-line"></div>
+            <p class="field-note">Address format - test@example.com</p>
+        </div>
+
+        <div class="form-field message-field">
+            <label class="field-label">Message *</label>
+            <textarea placeholder="Please enter your message" class="form-textarea"></textarea>
+        </div>
+
+        <button class="submit-btn">Submit</button>
+    </div>
+
+    <p class="privacy-text">
+        By clicking the submit button You confirm my consent to the processing of 
+        <a href="#" class="privacy-highlight">personal data</a>
+    </p>
+
+    <div class="privacy-underline"></div>
+</section>
+
+<section class="section-6">
+    <nav class="footer-nav">
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+    </nav>
+
+    <div class="separator separator-1"></div>
+    <div class="separator separator-2"></div>
+    <div class="separator separator-3"></div>
+
+    <p class="footer-year">2025-2026 IT HEXLET</p>
+    <p class="footer-description">This project is a practical project for mastering the structure and style of a web page.</p>
+
+    <a href="#about" class="back-to-top nav-link">Back to top</a>
+</section>
+
+    <script>
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#about' || this.classList.contains('back-to-top')) {
+                    window.scrollTo({
+                        top: 0,
+                        behavior: 'smooth'
+                    });
+                } else {
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            });
+        });
+        document.getElementById('contactBtn').addEventListener('click', function() {
+            const contactsSection = document.getElementById('contacts');
+            if (contactsSection) {
+                contactsSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+        document.querySelector('.back-to-top').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        const themeToggle = document.getElementById('themeToggle');
+        const body = document.body;
+        themeToggle.addEventListener('click', function() {
+            body.classList.toggle('dark-theme');
+
+            if(body.classList.contains('dark-theme')) {
+                themeToggle.innerHTML = '<i class="fas fa-sun"></i> theme';
+            } else {
+                themeToggle.innerHTML = '<i class="fas fa-moon"></i> theme';
+            }
+        });
+    </script>
+</body>
+</html>
