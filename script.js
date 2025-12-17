@@ -1,4 +1,4 @@
-// //ПРАКТИЧЕСКАЯ!
+// //ПРАКТИЧЕСКАЯ1
 // function hello(name, age) {
 //     console.log(typeof name);
 //     console.log(typeof age);
@@ -234,4 +234,5 @@
 //     </footer>
 // </body>
 // </html>
+
 
